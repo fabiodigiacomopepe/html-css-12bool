@@ -1,0 +1,21 @@
+[class*="col-"] {
+    min-height: 50px;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container h2 {
+    color: black;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
