@@ -1,6 +1,6 @@
 [class*="col-"] {
     min-height: 50px;
-    background-color: blue;
+    background-color: #006cfa;
     border: 1px solid white;
 }
 
@@ -17,5 +17,17 @@
 
 section {
     margin-bottom: 30px;
+}
+
+.nested .col-6 .row div {
+    background-color: #00e165;
+    height: 30px;
+    min-height: 0;
+    border: 1px solid #006cfa;
+    line-height: 30px;
+}
+
+.row.nested .col-6 .row {
+    padding: 10px;
 }
 
