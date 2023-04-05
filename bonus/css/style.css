@@ -1,0 +1,73 @@
+[class*="col-"] {
+    min-height: 50px;
+    background-color: #006cfa;
+    border: 1px solid white;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container h2,
+.container h4 {
+    color: black;
+    text-align: left;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.row.nested {
+    padding: 10px;
+}
+
+
+.row.nested div {
+    background-color: #00e165;
+    height: 30px;
+    min-height: 0;
+    border: 1px solid #006cfa;
+}
+
+.big {
+    height: 100px;
+}
+
+.top-middle-bottom div:last-child {
+    max-height: 50px;
+}
+
+.j-cont-top {
+    justify-content: flex-start;
+}
+
+.j-cont-middle {
+    justify-content: center;
+}
+
+.j-cont-end {
+    justify-content: flex-end;
+}
+
+.a-self-top {
+    align-self: flex-start;
+}
+
+.a-self-middle {
+    align-self: center;
+}
+
+.a-self-end {
+    align-self: flex-end;
+}
+
+.s-around {
+    justify-content: space-around;
+}
+
+.s-between {
+    justify-content: space-between;
+}
